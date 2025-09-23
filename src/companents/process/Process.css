@@ -1,0 +1,47 @@
+.procces .call .min-call {
+    width: 20%;
+    position: relative;
+}
+
+.procces .call .min-call:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.min-call button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 50px;
+    background-color: white;
+}
+
+.min-call p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0C0C0C;
+    width: 180px;
+}
+
+.min-call .bor {
+    position: absolute;
+    top: 40px;
+    left: -45px;
+    width: 300px;
+}
+
+.min-call #left {
+    position: absolute;
+    color: rgba(229, 220, 220, 0.479);
+    top: 140px;
+    font-size: 25px;
+    right: -24px;
+}

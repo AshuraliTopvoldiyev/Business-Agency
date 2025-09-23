@@ -1,0 +1,287 @@
+ .home {
+     background-image: url(/img/bghome.png);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100vh;
+     margin-top: -85px;
+     width: 100%;
+ }
+
+ .hero {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     color: white;
+     padding-top: 100px;
+ }
+
+ .hero .hero_info {
+     width: 50%;
+ }
+
+ .hero_info h1 {
+     font-family: "Roboto Serif", serif;
+     font-weight: 600;
+     font-size: 50px;
+     line-height: 60px;
+     letter-spacing: 2px;
+     width: 510px;
+     color: #FBFBFB;
+     margin-bottom: 15px;
+ }
+
+ .hero_info h1 span {
+     color: #64CCC5;
+ }
+
+ .hero_info p {
+     font-family: "DM Sans", sans-serif;
+     font-weight: 400;
+     font-size: 17px;
+     line-height: 25px;
+     width: 510px;
+     color: #FBFBFB;
+     margin-bottom: 20px;
+ }
+
+ .btn {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 10px;
+     padding: 8px 20px;
+     margin-bottom: 50px;
+     font-weight: 400;
+     font-family: "Roboto Serif", serif;
+
+ }
+
+ .hero_info .hero_logos {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .hero_info h4 {
+     font-family: "Roboto Serif", serif;
+     font-weight: 600;
+     font-size: 18px;
+     line-height: 32px;
+     letter-spacing: 1px;
+     color: #64CCC5;
+     margin-bottom: 5px;
+
+ }
+
+ .hero_logos img {
+     width: 25%;
+ }
+
+ .hero .hero_img {
+     width: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 85vh;
+
+ }
+
+ .hero .hero_img img {
+     width: 900px;
+ }
+
+ .service {
+     padding: 70px 0px;
+ }
+
+ .row {
+     text-align: center;
+     font-family: "Roboto Serif", serif;
+     font-weight: 600;
+     font-size: 25px;
+     line-height: 32px;
+     letter-spacing: 2px;
+     color: #64CCC5;
+     margin-bottom: 20px;
+ }
+
+ .sec_row {
+     font-family: "Roboto Serif", serif;
+     font-weight: 600;
+     font-size: 50px;
+     line-height: 60px;
+     letter-spacing: 2px;
+     color: #0C0C0C;
+     display: flex;
+     margin: 0 auto;
+     text-align: center;
+     width: 600px;
+     margin-bottom: 20px;
+ }
+
+ .service .box {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     gap: 30px;
+ }
+
+
+
+
+ .about_us {
+     background-color: #0C0C0C;
+ }
+
+ .about_us .container {
+     padding: 60px 0px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .about_img,
+ .about_info {
+     width: 50%;
+ }
+
+ .about_img img {
+     width: 94%;
+ }
+
+ .about_info h4 {
+     text-align: start;
+     margin-bottom: 10px;
+ }
+
+ .about_info h1 {
+     font-family: "Roboto Serif", serif;
+     font-weight: 600;
+     font-size: 50px;
+     line-height: 50px;
+     color: #FBFBFB;
+ }
+
+ .about_info p {
+     font-family: "DM Sans", sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 20px;
+     width: 470px;
+     margin: 20px 0px;
+     color: #FBFBFB;
+ }
+
+ .about_info .status {
+     display: flex;
+     align-items: center;
+     justify-content: start;
+     gap: 50px;
+     margin-bottom: 20px;
+ }
+
+ .status .st_1 h2 {
+     color: #64CCC5;
+     font-family: "Roboto Serif", serif;
+     font-weight: 600;
+     font-size: 30px;
+     line-height: 50px;
+ }
+
+ .status .st_1 h5 {
+     font-family: "DM Sans", sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 20px;
+     color: #FBFBFB;
+
+ }
+
+ .procces {
+     padding: 60px 0px;
+ }
+
+ .procces .call {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 80px;
+ }
+
+
+
+
+
+
+ .card_ds2 .btn {
+     width: 270px;
+     background-color: black;
+     color: white;
+     margin-bottom: 40px;
+     margin-top: 40px;
+     margin-left: 260px;
+ }
+
+ .user {
+     text-align: center;
+     padding: 45px 80px;
+     background-color: #F4F4F4;
+     border-radius: 30px;
+     margin-top: 20px;
+ }
+
+ .user h3 {
+     font-family: "Roboto Serif", serif;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 30px;
+     margin: 20px 0px;
+ }
+
+ .user h4 {
+     font-family: "Roboto Serif", serif;
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 30px;
+ }
+
+ .user h5 {
+     font-family: "Roboto Serif", serif;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 30px;
+ }
+
+ .user button {
+     border: 1px solid #000;
+     padding: 10px 14px;
+     border-radius: 30px;
+     margin-left: 20px;
+ }
+
+ .user button:hover {
+     background-color: black;
+     color: white;
+     transition: all 0.2s ease-in-out;
+ }
+
+ .design_imgs {
+     display: flex;
+     align-items: start;
+     justify-content: space-between;
+ }
+
+ .design_imgs .card_ds {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .design_imgs .card_ds2 {
+     width: 50%;
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+ }

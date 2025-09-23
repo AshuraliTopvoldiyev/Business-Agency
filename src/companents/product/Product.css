@@ -1,0 +1,52 @@
+.disg img {
+    width: 100%;
+}
+
+.disg {
+    /* width: 90%; */
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.disg img {
+    width: 100%;
+}
+
+.disg h4 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.disg h6 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.disg .arrow_hover {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: -1000px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disg:hover .arrow_hover {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.181);
+    z-index: 0;
+    left: 0px;
+    cursor: pointer;
+
+}
+
+.arrow_hover img {
+    width: 40px;
+}

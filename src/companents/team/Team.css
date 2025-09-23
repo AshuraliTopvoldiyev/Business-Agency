@@ -1,0 +1,52 @@
+.team_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team_box .team_card {
+    position: relative;
+    width: 30%;
+}
+
+.team_card img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.team_card .team_icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.team_icons img {
+    width: 35px;
+}
+
+.team_icons img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.team_card h2 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.team_card h4 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,35 @@
+
+.get_in {
+    padding: 50px 0px;
+}
+
+.get_in .container {
+    background-image: url(/img/getinbg.png);
+    width: 100%;
+    min-height: 28vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 30px;
+}
+
+.get_in h1 {
+    color: #FBFBFB;
+    font-family: "Roboto Serif", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 38px;
+    letter-spacing: 1px;
+}
+
+.get_in button {
+    padding: 8px 15px;
+    font-family: "Roboto Serif", serif;
+    font-weight: 400;
+    font-size: 16px;
+}

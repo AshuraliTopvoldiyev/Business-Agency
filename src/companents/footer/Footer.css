@@ -1,0 +1,138 @@
+.footer {
+    background-color: #0C0C0C;
+    padding-top: 10px;
+}
+
+.footer .top_part {
+    margin: 50px 0px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.top_part .logo_part p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    width: 300px;
+
+}
+
+.top_part .pages_1,
+.top_part .pages_2,
+.top_part .email {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.pow {
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    line-height: 25px;
+}
+
+.footer ul li,
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a,
+.footer ul li a {
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    line-height: 35px;
+}
+
+.top_part .email form {
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.email form input::placeholder {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.email form input {
+    border: none;
+    outline: none;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    width: 220px;
+}
+
+.email form button {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0C0C0C;
+    color: #FFFFFF;
+}
+
+.email form button:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    background-color: #0C0C0C;
+}
+
+.footer .line {
+    background-color: #F4F4F4;
+    height: 1px;
+}
+
+.bottom_part {
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.footer .bottom_part {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footer .bottom_part .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.bottom_part .icons img {
+    width: 40px;
+}
+
+.bottom_part .icons img:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-in-out;
+}

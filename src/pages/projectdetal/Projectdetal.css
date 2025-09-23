@@ -1,0 +1,104 @@
+.project_detal .hero__project {
+    height: 75vh;
+    background-image: url(/img/productimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.categories .category {
+    border: 1px solid #000;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: -40px;
+    margin-bottom: 60px;
+}
+
+.category h2 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.category h4 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.cotegory_info h2 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+}
+
+.cotegory_info {
+    margin-bottom: 60px;
+}
+
+.cotegory_info p {
+    font-family: "Roboto Serif", serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* letter-spacing: 1px; */
+    /* margin: 20px 0px ; */
+}
+
+.cotegory_info p span {
+    font-family: "Roboto Serif", serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    width: 400px;
+    /* border: 1px solid #000; */
+}
+
+.category_imgs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6 0px 0px;
+}
+
+.category_imgs img {
+    width: 30%;
+}
+.recent_project{
+    margin: 60px 0px;
+}
+
+.recent_project .recent_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recent_project h1{
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 40px;
+}

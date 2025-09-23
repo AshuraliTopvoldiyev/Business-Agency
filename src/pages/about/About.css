@@ -1,0 +1,247 @@
+.about .container {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 70px;
+    border-radius: 20px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.about .a_info,
+.about .a_img {
+    width: 50%;
+}
+
+.about .a_img {
+    position: relative;
+}
+
+.about .a_img img {
+    width: 100%;
+    position: absolute;
+
+}
+
+.a_info h4 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+
+}
+
+.a_info h1 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    width: 465px;
+    margin-bottom: 15px;
+}
+
+.a_info h1 span {
+    color: #64CCC5;
+}
+
+
+.a_info p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.a_info .rated {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+
+
+.a_info .rated .rated_info h4 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.active .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0px;
+}
+
+.our_mission {
+    background-color: #0C0C0C;
+    color: #FBFBFB;
+}
+
+.our_mission .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid #000; */
+    padding: 60px 0px;
+}
+
+.our_mission .mission_info,
+.our_mission .mission_img {
+    width: 50%;
+}
+
+.our_mission .mission_img {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    position: relative;
+}
+
+.mission_img .member {
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    left: 250px;
+    top: 60px;
+}
+
+.member h4 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0C0C0C;
+}
+
+.mission_img .mis_img1 .mis_actives {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.mis_actives .mis1_active h1,
+.mis_actives .mis2_active h1 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+
+.mis_actives .mis1_active p,
+.mis_actives .mis2_active p {
+    font-family: "Roboto Serif", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 15px;
+}
+
+.mis_actives .mis1_active {
+    border-right: 2px solid #FBFBFB;
+    padding-right: 10px;
+    margin-top: -50px;
+}
+
+.mis_actives .mis2_active {
+    margin-top: 60px;
+}
+
+.mission_img .mis_img1 img {
+    width: 260px;
+}
+
+.mission_img .mis_img2 {
+    margin-top: 270px;
+
+}
+
+.mission_img .mis_img2 img {
+    width: 240px;
+}
+
+.mission_info h3 {
+    color: #64CCC5;
+    font-family: "Roboto Serif", serif;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.mission_info h1 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 52px;
+    width: 450px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    /* color: #FBFBFB; */
+}
+
+
+.mission_info p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 540px;
+    margin-bottom: 35px;
+    /* color: #FBFBFB; */
+}
+
+.mission_info .missions_part {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap: 10px; */
+}
+
+.missions_part .act {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+    width: 45%;
+}
+
+.act h5 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.team .container {
+    padding: 50px 0px;
+}
+
+.team h1 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 25px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+
+.btns:hover {
+    cursor: pointer;
+    background-color: #64CCC5;
+    color: #FBFBFB;
+    transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,52 @@
+.project .portfolio {
+    width: 100%;
+    height: 30vh;
+    background-color: #0C0C0C;
+    color: #FBFBFB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 40px 0px;
+}
+
+.project .project_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+}
+
+.project_card .disg {
+    width: 45%;
+}
+
+.disg img {
+    width: 90%;
+}
+
+.disg .arrow_hover {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: -1000px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disg:hover .arrow_hover {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.181);
+    z-index: 0;
+    left: 0px;
+
+}
+
+.arrow_hover img {
+    width: 40px;
+}
