@@ -1,13 +1,14 @@
 import React from 'react'
 import "./Services.css"
 
-function Services() {
+function Services({item}) {
+    
     return (
         <>
             <div className="card">
-                <button><i class="fa-solid fa-pen"></i></button>
-                <h4>Content Marketing </h4>
-                <p>Our team creates engaging and shareable content that resonates with your audience, drives organic traffic</p>
+                <button><i class={item.img}></i></button>
+                <h4>{item.title} </h4>
+                <p>{item.desc}</p>
             </div>
         </>
     )

@@ -4,7 +4,9 @@ import Product from '../../companents/product/Product'
 import Services from '../../companents/services/Services'
 import Process from '../../companents/process/Process'
 
-function Home() {
+function Home({ services, process , product}) {
+  // console.log(services);
+
   return (
     <>
       <section className='home'>
@@ -34,12 +36,11 @@ function Home() {
           <h1 className='sec_row'>High-impact services
             for your business</h1>
           <div className="box">
-            <Services />
-            <Services />
-            <Services />
-            <Services />
-            <Services />
-            <Services />
+            {services.map((item) => {
+              return <Services item={item} />
+            })}
+
+
           </div>
         </div>
       </section>
@@ -74,21 +75,25 @@ function Home() {
             things forward
           </h1>
           <div className="call">
-            <Process />
-            <Process />
-            <Process />
-            <Process />
+            {
+              process.map((item) => {
+                return <Process item={item}/>
+            })
+          }
+
           </div>
           <h1 className="sec_row">Recent Showcase</h1>
           <div className="design_imgs">
             <div className="card_ds">
-              <Product />
-              <Product />
+             {
+              product.map((item)=>{
+                return <Product item={item} />
+              })
+             }
             </div>
             <div className="card_ds2">
               <button className='btn'><img src="/img/arow2.svg" alt="" />Start your Free Trial</button>
-              <Product />
-              <Product />
+              
 
             </div>
 

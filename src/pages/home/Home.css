@@ -274,14 +274,27 @@
  }
 
  .design_imgs .card_ds {
-     width: 50%;
+     width: 100%;
      display: flex;
-     flex-direction: column;
+     align-items: start;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     /* flex-direction: column; */
+ }
+
+ .card_ds .disg{
+    width: 50%;
+ }
+
+ .card_ds .disg:nth-child(2){
+    margin-top: 120px;
+ }
+  .card_ds .disg:nth-child(3){
+    margin-top: -120px;
  }
 
  .design_imgs .card_ds2 {
-     width: 50%;
+     width: 0%;
      display: flex;
      justify-content: space-between;
-     flex-direction: column;
  }

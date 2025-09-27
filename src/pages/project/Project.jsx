@@ -3,7 +3,7 @@ import "./Project.css"
 import Product from '../../companents/product/Product'
 import Get from '../../companents/get/Get'
 
-function Project() {
+function Project({product}) {
   return (
     <>
       <h1>
@@ -13,12 +13,11 @@ function Project() {
               <h1>Our Portfolio</h1>
             </div>
             <div className="project_card">
-              <Product/>
-              <Product/>
-              <Product/>
-              <Product/>
-              <Product/>
-              <Product/>
+             {
+              product.map((item)=>{
+                return <Product item={item}/>
+              })
+             }
             </div>
             <Get/>
           </div>

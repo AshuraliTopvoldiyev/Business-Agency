@@ -2,7 +2,7 @@ import React from 'react'
 import "./Projectdetal.css"
 import Product from '../../companents/product/Product'
 
-function Projectdetal() {
+function Projectdetal({ product }) {
     return (
         <>
             <section className="project_detal">
@@ -49,9 +49,11 @@ function Projectdetal() {
                     <div className="recent_project">
                         <h1>Recent Projects </h1>
                         <div className="recent_card">
-                            <Product />
-                            <Product />
-                            <Product />
+                            {
+                                product.map((item) => {
+                                    return <Product item={item} />
+                                })
+                            }
                         </div>
                     </div>
                 </div>
